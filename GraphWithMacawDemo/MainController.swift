@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainController.swift
 //  GraphWithMacawDemo
 //
 //  Created by Ibraheem rawlinson on 3/23/20.
@@ -8,11 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainController: UIViewController {
 
+    @IBOutlet weak var macawChartView: MacawChartView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        macawChartView.contentMode = .scaleAspectFit
     }
 
 
