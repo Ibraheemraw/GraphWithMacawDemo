@@ -9,22 +9,18 @@
 import UIKit
 
 class HomeController: UIViewController {
-
+    @IBOutlet weak var macawChartView: MacawChartView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        macawChartView.contentMode = .scaleAspectFit
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    @IBAction func ShowChart(_ sender: UIButton) {
+        MacawChartView.playAnimations()
     }
-    */
-
+    
 }

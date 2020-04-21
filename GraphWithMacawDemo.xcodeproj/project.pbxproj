@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		486D7DB824290033000D2A2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486D7DB724290033000D2A2D /* AppDelegate.swift */; };
 		486D7DBA24290033000D2A2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486D7DB924290033000D2A2D /* SceneDelegate.swift */; };
-		486D7DBC24290033000D2A2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486D7DBB24290033000D2A2D /* ViewController.swift */; };
 		486D7DBF24290033000D2A2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 486D7DBD24290033000D2A2D /* Main.storyboard */; };
 		486D7DC124290034000D2A2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 486D7DC024290034000D2A2D /* Assets.xcassets */; };
 		486D7DC424290034000D2A2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 486D7DC224290034000D2A2D /* LaunchScreen.storyboard */; };
+		486D7DCC24290274000D2A2D /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486D7DCB24290274000D2A2D /* MyView.swift */; };
+		486D7DCE24291D17000D2A2D /* MacawChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486D7DCD24291D17000D2A2D /* MacawChartView.swift */; };
+		486D7DD024292A15000D2A2D /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486D7DCF24292A15000D2A2D /* HomeController.swift */; };
+		A524ADC59B08F8F9879D8D78 /* Pods_GraphWithMacawDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64553478F3751223025C7203 /* Pods_GraphWithMacawDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		486D7DB424290033000D2A2D /* GraphWithMacawDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphWithMacawDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		486D7DB724290033000D2A2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		486D7DB924290033000D2A2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		486D7DBB24290033000D2A2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		486D7DBE24290033000D2A2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		486D7DC024290034000D2A2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		486D7DC324290034000D2A2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		486D7DC524290034000D2A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		486D7DCB24290274000D2A2D /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		486D7DCD24291D17000D2A2D /* MacawChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacawChartView.swift; sourceTree = "<group>"; };
+		486D7DCF24292A15000D2A2D /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		64553478F3751223025C7203 /* Pods_GraphWithMacawDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraphWithMacawDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67FFB68AB02F8F13E8472658 /* Pods-GraphWithMacawDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphWithMacawDemo.debug.xcconfig"; path = "Target Support Files/Pods-GraphWithMacawDemo/Pods-GraphWithMacawDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FB491EBCF1434810812A1D53 /* Pods-GraphWithMacawDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphWithMacawDemo.release.xcconfig"; path = "Target Support Files/Pods-GraphWithMacawDemo/Pods-GraphWithMacawDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A524ADC59B08F8F9879D8D78 /* Pods_GraphWithMacawDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,8 @@
 			children = (
 				486D7DB624290033000D2A2D /* GraphWithMacawDemo */,
 				486D7DB524290033000D2A2D /* Products */,
+				C64ADD98B7AB8F31825023D8 /* Pods */,
+				97B8511CB1D16026B7ABAB28 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +69,32 @@
 			children = (
 				486D7DB724290033000D2A2D /* AppDelegate.swift */,
 				486D7DB924290033000D2A2D /* SceneDelegate.swift */,
-				486D7DBB24290033000D2A2D /* ViewController.swift */,
 				486D7DBD24290033000D2A2D /* Main.storyboard */,
 				486D7DC024290034000D2A2D /* Assets.xcassets */,
 				486D7DC224290034000D2A2D /* LaunchScreen.storyboard */,
 				486D7DC524290034000D2A2D /* Info.plist */,
+				486D7DCB24290274000D2A2D /* MyView.swift */,
+				486D7DCD24291D17000D2A2D /* MacawChartView.swift */,
+				486D7DCF24292A15000D2A2D /* HomeController.swift */,
 			);
 			path = GraphWithMacawDemo;
+			sourceTree = "<group>";
+		};
+		97B8511CB1D16026B7ABAB28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64553478F3751223025C7203 /* Pods_GraphWithMacawDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C64ADD98B7AB8F31825023D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67FFB68AB02F8F13E8472658 /* Pods-GraphWithMacawDemo.debug.xcconfig */,
+				FB491EBCF1434810812A1D53 /* Pods-GraphWithMacawDemo.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 486D7DC824290034000D2A2D /* Build configuration list for PBXNativeTarget "GraphWithMacawDemo" */;
 			buildPhases = (
+				897135AB1EB74023E62DCB51 /* [CP] Check Pods Manifest.lock */,
 				486D7DB024290033000D2A2D /* Sources */,
 				486D7DB124290033000D2A2D /* Frameworks */,
 				486D7DB224290033000D2A2D /* Resources */,
+				20C92432E203454BDDB42324 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +165,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		20C92432E203454BDDB42324 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GraphWithMacawDemo/Pods-GraphWithMacawDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Macaw/Macaw.framework",
+				"${BUILT_PRODUCTS_DIR}/SWXMLHash/SWXMLHash.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Macaw.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWXMLHash.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GraphWithMacawDemo/Pods-GraphWithMacawDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		897135AB1EB74023E62DCB51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GraphWithMacawDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		486D7DB024290033000D2A2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				486D7DBC24290033000D2A2D /* ViewController.swift in Sources */,
+				486D7DCC24290274000D2A2D /* MyView.swift in Sources */,
+				486D7DCE24291D17000D2A2D /* MacawChartView.swift in Sources */,
 				486D7DB824290033000D2A2D /* AppDelegate.swift in Sources */,
 				486D7DBA24290033000D2A2D /* SceneDelegate.swift in Sources */,
+				486D7DD024292A15000D2A2D /* HomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +365,13 @@
 		};
 		486D7DC924290034000D2A2D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67FFB68AB02F8F13E8472658 /* Pods-GraphWithMacawDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 465ZSD32S3;
 				INFOPLIST_FILE = GraphWithMacawDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +385,13 @@
 		};
 		486D7DCA24290034000D2A2D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB491EBCF1434810812A1D53 /* Pods-GraphWithMacawDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 465ZSD32S3;
 				INFOPLIST_FILE = GraphWithMacawDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
